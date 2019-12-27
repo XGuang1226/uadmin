@@ -1,0 +1,46 @@
+export default {
+  // 是否登录
+  newVersion: false,
+  login: false,
+  userName: null,
+  userDataSid: null,
+
+  // 用户信息
+  userInfo: {},
+  userassets: null,
+  initFinished: false,
+  unRouterChange: false,
+  coupon: { amount: 0 },
+  settingsAPIs: null,
+  chain: null,
+  loginPath: undefined,
+  lang: 1,
+  theme: '',
+  logo: '',
+  logoen: '',
+  copyRight: '',
+  link: '',
+  configTheme: '1a1d5c',
+  adminNotifyId: '',
+  connectionStatus: '',
+  curDate: new Date(),
+  ucurl: undefined,
+  headurl: [],
+  headquery: [],
+  companyName: 'ZOS',
+  serveType: 1,
+  kycTableData: '',
+  user: {
+    isKycUser: false,
+    isGatewayUser: false,
+    isCarrierUser: false,
+    kycToken: '',
+    gatewayToken: '',
+    kycImagePath: '',
+    kycStatus: [],
+    kycCountry: [],
+    kycUrl: '',
+    gatewayUrl: '',
+    testKycurl: undefined
+  }
+}
